@@ -1,4 +1,4 @@
-package Seminar3.Task1;
+package Seminar4.Task1;
 
 public class Circle extends Shape {
 
