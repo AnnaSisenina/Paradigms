@@ -1,0 +1,5 @@
+sum([], 0).
+sum([H|T], X) :-
+    sum(T, X1), X is X1 + H.
+
+?- sum([1,2,3,4,5], X), write(X).
